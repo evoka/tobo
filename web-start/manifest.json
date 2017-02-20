@@ -1,6 +1,6 @@
 {
-  "name": "Friendly Chat",
-  "short_name": "Friendly Chat",
+  "name": "Team Only Burn Once",
+  "short_name": "TOBO",
   "start_url": "/index.html",
   "display": "standalone",
   "orientation": "portrait"

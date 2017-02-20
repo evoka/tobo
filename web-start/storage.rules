@@ -1,0 +1,8 @@
+service firebase.storage {
+  match /b/tobo-f1c39.appspot.com/o {
+    match /{userId}/{timeStamp}/{fileName} {
+      allow write: if request.auth.uid == userId;
+      allow read;
+    }
+  }
+}
